@@ -1,0 +1,29 @@
+{
+    "name": "chkilian89/permisions-and-role-filament",
+    "description": "Plugin Filament v3 para integração com spatie/laravel-permission e lógica customizada.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "chkilian89\\FilamentPermission\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "filament/filament": "^3.0",
+        "spatie/laravel-permission": "^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "chkilian89\\FilamentPermission\\FilamentPermissionServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "chkilian89",
+            "email": "contato@chktecnologia.com.br"
+        }
+    ]
+}
