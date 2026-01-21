@@ -3,8 +3,8 @@
 namespace chkilian89\FilamentPermission\Filament\Resources;
 
 use Filament\Resources\Resource;
-use Filament\Resources\Form;
-use Filament\Resources\Table;
+use Filament\Forms\Form;
+use Filament\Tables\Table;
 use Filament\Forms;
 use Filament\Tables;
 use Spatie\Permission\Models\Permission;
