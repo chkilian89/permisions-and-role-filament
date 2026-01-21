@@ -1,6 +1,6 @@
 <?php
 
-namespace FilamentPermission\Filament\Resources;
+namespace chkilian89\FilamentPermission\Filament\Resources;
 
 use Filament\Resources\Resource;
 use Filament\Resources\Form;
@@ -12,7 +12,7 @@ use Spatie\Permission\Models\Role;
 
 class UserResource extends Resource
 {
-    protected static string $model = User::class;
+    protected static ?string $model = User::class;
 
     public static function form(Form $form): Form
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilamentPermission\Filament\Resources;
+namespace chkilian89\FilamentPermission\Filament\Resources;
 
 use Filament\Resources\Resource;
 use Filament\Resources\Form;
@@ -11,7 +11,7 @@ use Spatie\Permission\Models\Permission;
 
 class PermissionResource extends Resource
 {
-    protected static string $model = Permission::class;
+    protected static ?string $model = Permission::class;
 
     public static function form(Form $form): Form
     {
