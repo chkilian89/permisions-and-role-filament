@@ -1,6 +1,6 @@
 <?php
 
-namespace FilamentPermission;
+namespace chkilian89\FilamentPermission;
 
 use Illuminate\Support\ServiceProvider;
 
